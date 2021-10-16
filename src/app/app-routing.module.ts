@@ -11,6 +11,7 @@ import { EditflowerComponent } from './editflower/editflower.component';
 import { FlowerComponent } from './flower/flower.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ManageProfileComponent } from './manage-profile/manage-profile.component';
+import { MyorderComponent } from './myorder/myorder.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { RegisterComponent } from './register/register.component';
 import { RegisterflowerComponent } from './registerflower/registerflower.component';
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path:'register', component : RegisterComponent},
   {path:'privacy', component : PrivacyComponent},
   {path:'manageProfile', component : ManageProfileComponent},
-  {path:'logout', component : LogoutComponent}
+  {path:'logout', component : LogoutComponent},
+  {path:'myorder', component : MyorderComponent}
 ];
 
 @NgModule({
